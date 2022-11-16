@@ -2,8 +2,8 @@
   "name": "mobgaming",
   "version": "1.0.0",
   "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
     "server": "nodemon backend/server.js",
     "client": "npm run start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
