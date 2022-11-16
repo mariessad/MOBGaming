@@ -1,0 +1,311 @@
+.App {
+  text-align: center;
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg");
+
+  width: 100vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.store-container {
+  /* text-align: center; */
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg");
+  
+  width: 100vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #242732;
+
+}
+
+img {
+  padding: 10px;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 4%;
+
+}
+
+img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.card {
+  transition: transform .2s;
+  background-color: rgb(236, 236, 237);
+}
+
+.card:hover {
+  transform: scale(1.12);
+  z-index: 1;
+}
+
+
+.search-input {
+  border-color: black;
+}
+
+.nav-link {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(246, 241, 174)
+}
+
+.topBar{
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+}
+
+
+.buy-btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 5%;
+}
+
+.buy-btn:hover,
+.buy-btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.buy-btn:active {
+  opacity: .5;
+}
+
+.card-body {
+  background-color: rgb(230, 228, 226);
+  margin-left: 8%;
+}
+
+.total-cart {
+  background-color: #d5f4fd;
+  width: 250px;
+  height: 250px;
+  margin-left: 3%;
+  border-radius: 4%;
+}
+
+.cart-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.cart-container {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.gameslist-header {
+  color: aliceblue;
+}
+
+Label {
+  color: rgb(236, 236, 237)
+}
+
+/* CART */
+
+.cart-main {
+  width: 100vw
+}
+
+/* AUTH */
+.authBackground {
+   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%; 
+    
+}
+
+.auth-headers {
+  color: aliceblue;
+}
+
+.error-message {
+  color: aliceblue;
+}
+
+.sign-in-form {
+  border: 1px solid white;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #242732
+}
+
+.sign-up-form {
+  border: 1px solid white;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #242732
+}
+/* GAMESLIST PAGE */
+
+.more-info {
+  background-color: rgb(180, 183, 185);
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  border: 2px solid rgb(180, 183, 185);
+}
+
+.more-info:hover {
+  border: 2px solid black
+}
+.space{
+  height: 80px;
+}
+.spaceDetail {
+  height: 120px;
+}
+/* DETAILS PAGE */
+.detail-title {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.back-to-list {
+  width: 160px;
+  height: 40px;
+  color: rgb(27, 138, 82);
+  border: 2px solid rgb(27, 138, 82);
+  border-radius: 0.5rem;
+  margin: auto;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 40px;
+}
+.back-to-list:hover {
+  color: white;
+  background-color: rgb(27, 138, 82);
+}
+.detail-desc {
+  width: 400px;
+  height: 320px;
+  overflow: scroll;
+  background-color: white;
+  margin: auto;
+  padding: 3%;
+  text-align: justify;
+  /* border: 2px solid rgb(12, 12, 17) */
+}
+.details-date {
+  color: white;
+}
+.detail-desc-border {
+  border: solid 6px rgb(27, 27, 44);
+  border-radius: 0.5rem;
+  width: 416px;
+  height: auto;
+  margin: auto;
+}
+.detail-image {
+  border: solid 6px rgb(207, 178, 10);
+}
+/* FLOATING Animation */
+.icons-wrapper {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.icon {
+  display: inline-block;
+  font-size: 44px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.regular-icon {
+  animation-delay: 1s;
+}
+
+.github-middle {
+  animation-delay: 2s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+span {
+  color: red;
+  font-weight: bold;
+}
